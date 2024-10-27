@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins';
+    background-image: url(assets/backgroung.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.formpinjam{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    padding-left: 50px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+form{
+    display: flex;
+}
+
+.peminjam{
+    margin-left: 50px;
+}
+
+img {
+    width: 360px;
+    height: 540px;
+}
+
+.formpinjam label, .formpinjam input{
+    display: block;
+}
+
+.formpinjam input{
+    color: black;
+    font-family: 'Poppins';
+    width: 150%;
+    padding: 8px;
+    border: 1px;
+    border-radius: 15px;
+    border-color: #CF7B57;
+    border-style: solid;
+}
+
+.formpinjam label{
+    color: #CF7B57;
+    margin-top: 8px;
+    margin-bottom: 3px;
+    font-size: 12px;
+}
+
+.ok{
+    width: 150%;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px;
+    border-style: solid;
+    border: 0;
+    background-color: #7E4F3D;
+}
+
+.ok:hover{
+    background-color: #CF7B57;
+}
+
+.back{
+    background-color: white;
+    border: 1px;
+    border-style: double;
+    border-color: #7E4F3D;
+    border-radius: 15px;
+    width: 150%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+}
+
+.back:hover{
+    background-color: #E6CFC6;
+    border-color: #E6CFC6;
+}
+
+.back a{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #7E4F3D;
+}

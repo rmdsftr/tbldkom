@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    background-image: url(assets/backgroung.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    width: 100%;
+    background-color: black;
+    height: 90px;
+    line-height: 90px;
+    padding: 0px 70px;
+}
+
+nav img{
+    width: 38px;
+    float: left;
+    margin-top: 25px;
+}
+
+nav h1{
+    font-size: 25px;
+    color: #88462E;
+    font-family: 'Poppins', monospace;
+    float: left;
+    margin-left: 18px;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+    padding-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', monospace;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 16px;
+    display: block;
+}
+
+nav ul li button {
+    background-color: black;
+    padding: 6px 8px;
+    border: 1px;
+    border-style: double;
+    border-color: #88462E;
+    border-radius: 10px;
+}
+
+nav ul li button a{
+    font-weight: 500;
+    color: #7E4F3D;
+}
+
+nav ul li button a:hover{
+    color: white;
+}
+
+nav ul li button:hover {
+    background-color: #7E4F3D;
+}
+
+nav ul li a:hover{
+    color: #CF7B57;
+}
+
+.home a{
+    color: #CF7B57;
+}
+
+main div img {
+    margin-left: 2%;
+    width: 38%;
+}
+
+main div h1 {
+    float: left;
+    margin-top: 8%;
+    padding-left: 80px;
+    font-family: 'Poppins';
+    color: white;
+    font-weight: 600;
+    font-size: 45px;
+}
+
+main div h1 span{
+    font-weight: 700;
+    color: #E6CFC6;
+}
+
+main div p {
+    clear: both;
+    float: left;
+    padding-left: 80px;
+    padding-top: 15px;
+    color: white;
+    font-family: 'Poppins';
+    font-size: 17px;
+}
+
+footer{
+    font-family: 'Poppins';
+    font-size: 12px;
+    color: #E6CFC6;
+    background-color: black;
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.wa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wa img{
+    width: 3%;
+}
+
+.wa p{
+    margin-left: 5px;
+}
+
+.ig{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ig img{
+    width: 9%;
+}
+
+.ig p{
+    margin-left: 5px;
+}
+
+.em{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.em img{
+    width: 6%;
+}
+
+.em p{
+    margin-left: 5px;
+}

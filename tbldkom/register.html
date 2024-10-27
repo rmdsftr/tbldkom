@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="formlogin">
+            <h1>REGISTER</h1>
+            <form action="register.php" method="POST">
+                <div class="input">
+                    <input type="text" name="username" id="username" placeholder="Username">
+                </div>
+
+                <div>
+                    <input type="text" name="nama_lengkap" id="nama_lengkap" placeholder="Nama Lengkap">
+                </div>
+
+                <div class="input">
+                    <input type="text" name="email" id="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <select name="jenis_kelamin" id="jenis_kelamin" aria-placeholder="Jenis Kelamin">
+                        <option value="Laki-Laki">Laki-Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                    </select>
+                </div>
+
+                <div class="input">
+                    <input type="password" name="password" id="password" required placeholder="Password">
+                </div>
+                <button type="submit" name="submit" class="btnLogin" style="font-family: 'Poppins';font-size: 16px;color: white;font-weight: 700;">DAFTAR</button>
+            </form>
+        </div>
+
+        <div class="keregister">
+            <h2>Sudah punya akun di perpustakaan <br> <span>Universitas Andalas?</span></h2>
+            <img src="assets/Logo Unand.png" alt="">
+            <br><button><a href="index.html">MASUK DI SINI</a></button>
+        </div>
+
+    </div>
+
+
+</body>
+</html>

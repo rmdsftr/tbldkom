@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="keregister">
+            <h2>Member baru di perpustakaan <br> <span>Universitas Andalas?</span></h2>
+            <img src="assets/Logo Unand.png" alt="">
+            <br><button><a href="register.html">DAFTAR DI SINI</a></button>
+        </div>
+
+        <div class="formlogin">
+            <h1>LOGIN</h1>
+            <form action="login.php" method="POST">
+                <div class="input">
+                    <label for="">Username</label>
+                    <input type="text" name="username" required>
+                </div>
+                <div class="input">
+                    <label for="">Kata Sandi</label>
+                    <input type="password" name="password" required placeholder="Maksimal 8 karakter">
+                </div>
+                <p><a href="">Lupa kata sandi?</a></p>
+                <button class="btnLogin" type="submit" name="submit" style="font-family: 'Poppins';font-size: 16px;color: white;font-weight: 700;">MASUK</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
